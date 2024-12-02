@@ -23,11 +23,12 @@ title: Cybersecurity Portfolio - Ian Spresney
 # github_username: yourgithubusername # Replace with your actual GitHub username
 
 # Build settings
-github:
-is_project_page: false
-remote_theme: pages-themes/hacker@v0.2.0
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
-  - jekyll-remote-theme # Add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-include-cache
+   # Add this line to the plugins list if you already have one
 
 # Social media links (optional, but great for professional presence)
 social_links:
